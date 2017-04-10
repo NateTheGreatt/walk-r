@@ -1,7 +1,7 @@
 {
   "name": "walk-r",
-  "version": "1.0.3",
-  "description": "",
+  "version": "0.0.3",
+  "description": "functional directory walk, written with Ramda.js",
   "main": "walk-r.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
