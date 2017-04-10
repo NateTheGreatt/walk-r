@@ -1,3 +1,4 @@
+let fs = require('fs')
 let R = require('ramda')
 
 let readDir = dir => fs.readdirSync(dir)
