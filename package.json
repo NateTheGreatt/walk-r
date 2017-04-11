@@ -1,6 +1,6 @@
 {
   "name": "walk-r",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "functional directory walk, written with Ramda.js",
   "author": "Nathaniel Martin <nate.teh.greatt@gmail.com>",
   "homepage": "https://github.com/natethegreatt/walk-r",
