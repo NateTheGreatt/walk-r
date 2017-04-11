@@ -4,7 +4,7 @@ A simple directory walk, written in a declarative style with Ramda.js
 Usage:
 ```
 let walk = require('walk-r')
-let filePaths = walk('folder')
+let filePaths = walk(path.join(__dirname, 'folder'))
 let files = filePaths.map(f => fs.readFileSync(f))
 ```
 
