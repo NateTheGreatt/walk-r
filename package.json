@@ -2,12 +2,17 @@
   "name": "walk-r",
   "version": "0.0.3",
   "description": "functional directory walk, written with Ramda.js",
-  "main": "walk-r.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Nathaniel Martin <nate.teh.greatt@gmail.com>",
+  "homepage": "https://github.com/natethegreatt/walk-r",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/natethegreatt/walk-r.git"
   },
-  "author": "",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natethegreatt/walk-r/issues"
+  },
+  "main": "walk-r.js",
+  "license": "MIT",
   "dependencies": {
     "ramda": "^0.23.0"
   }
