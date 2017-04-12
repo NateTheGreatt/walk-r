@@ -1,11 +1,14 @@
 # walk-r
-A simple directory walk, written in a declarative style with Ramda.js
+A simple directory walk which returns an array of file paths, written in a declarative style with Ramda.js
 
 Usage:
 ```
 let walk = require('walk-r')
-let filePaths = walk(path.join(__dirname, 'folder'))
+let absoluteFilePaths = walk(path.join(__dirname, 'folder'))
 let files = filePaths.map(f => fs.readFileSync(f))
+
+let relativeFilePaths = walk('folder')
 ```
 
-Give a directory name, receive an array of file paths relative to that directory.
+Give an absolute directory name, receive an array of absolute filepaths.
+Give a relative directory name, recieve an array of relative filepaths.
