@@ -17,7 +17,7 @@ let walk = (dir) => {
   let folders = getFolders(nodes)
   let files = getFiles(nodes)
   return R.pipe(
-    R.map(f => walk(f)),
+    R.map(walk),
     R.append(files),
     R.flatten
   )(folders)
